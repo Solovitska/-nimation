@@ -17,6 +17,7 @@ app.get('/reviews', (req, res) => {
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Прослуховуємо порт 5500
-app.listen(5500, () => {
-    console.log('Server is running on port 5500');
+const PORT = process.env.PORT || 5500; // Використовуємо змінну середовища PORT або 5500 за замовчуванням
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
