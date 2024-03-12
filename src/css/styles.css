@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .swiper-container {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    color: #333;
+  }
+  /* Стилі для mobile (гумова верстка від 320px, адаптивна з 375px) */
+  @media screen and (min-width: 320px) {
+    /* Додайте ваші стилі для мобільних пристроїв тут */
+  }
+  
+  /* Стилі для mobile (адаптивна з 375px) */
+  @media screen and (min-width: 375px) {
+    /* Додайте ваші стилі для мобільних пристроїв тут */
+  }
+  
+  /* Стилі для tablet (з точкою перелому при 768px) */
+  @media screen and (min-width: 768px) {
+    /* Додайте ваші стилі для планшетів тут */
+  }
+  
+  /* Стилі для desktop (з точкою перелому при 1280px) */
+  @media screen and (min-width: 1280px) {
+    /* Додайте ваші стилі для десктопів тут */
+  }
+  
+  
